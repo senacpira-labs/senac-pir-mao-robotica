@@ -1,0 +1,139 @@
+# ============================================================
+# Python: cache e arquivos compilados
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ============================================================
+# Ambientes virtuais
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+.venv.bak/
+venv.bak/
+__pypackages__/
+
+# ============================================================
+# Ferramentas de análise e testes
+# ============================================================
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+
+# Cobertura de testes e relatórios gerados.
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+coverage.json
+junit.xml
+
+# ============================================================
+# Empacotamento e caches de instalação
+# ============================================================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+.cache/
+.uv-cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================================
+# Credenciais e configurações locais
+# Nunca coloque senhas diretamente no código.
+# ============================================================
+.env
+.env.*
+
+# Exemplos sem informações confidenciais podem ser enviados.
+!.env.example
+!.env.sample
+!.env.template
+
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# ============================================================
+# Editores
+# ============================================================
+.idea/
+*.code-workspace
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.history/
+
+# Compartilha somente as configurações selecionadas do VS Code.
+# Verifique se esses arquivos não contêm dados pessoais ou segredos.
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+.ipynb_checkpoints/
+
+# ============================================================
+# Sistema operacional
+# ============================================================
+.DS_Store
+._*
+.AppleDouble/
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================
+# Logs e arquivos temporários
+# ============================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+/tmp/
+/temp/
+/scratch/
+
+# ============================================================
+# Capturas geradas durante testes da câmera
+# As regras abaixo se aplicam às pastas na raiz do projeto.
+# ============================================================
+/captures/
+/recordings/
+
+# ============================================================
+# MANTER NO GIT
+# Não ignorar:
+# - Código Python, incluindo __init__.py
+# - modules/, demos/, docs/ e testes
+# - README.md e .gitignore
+# - pyproject.toml e uv.lock
+# - .python-version
+# - models/ e hand_landmarker.task
+# ============================================================
